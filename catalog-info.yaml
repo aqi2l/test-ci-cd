@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-cdic"
+  annotations:
+    gocd.org/pipelines: nodejs_mysql_pipeline
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
